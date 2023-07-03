@@ -2,9 +2,9 @@ import smtplib
 import imghdr
 from email.message import EmailMessage
 
-pw = "wldrjrebbljlzrkz"
-sender_address = "mhmtsoylu1928@gmail.com"
-receiver_address = "mhmtsoylu1928@gmail.com"
+pw = "YOUR GOOGLE APP PW"
+sender_address = "AN EMAIL ADDRESS"
+receiver_address = "AN EMAIL ADDRESS"
 
 def send_mail(image_path):
     email_message = EmailMessage()
